@@ -5,7 +5,7 @@ An AI-powered research paper assistant that helps users upload academic papers, 
 This system is designed to simplify the process of reading, understanding, and analyzing research papers. Instead of manually scanning long documents, users can upload PDFs and interact with them through natural language queries.
 
 The application combines document processing, vector search, and large language models to deliver context-aware answers.
-
+---
 
 
 🚀 Features
@@ -21,7 +21,7 @@ The application combines document processing, vector search, and large language 
 📊 Clean interactive interface using Streamlit
 
 ⚡ Fast response using LLM APIs
-
+---
 
 
 🧠 Tech Stack
@@ -39,7 +39,7 @@ Google Gemini API
 PyPDF
 
 Tavily API (Web Search)
-
+---
 
 
 📂 Project Structure
@@ -64,7 +64,7 @@ Research-Paper-Management-Analysis-Intelligence-System
 │
 
 └── README.md
-
+---
 
 
 ⚙️ Installation
@@ -100,7 +100,7 @@ Example:
 
 GOOGLE_API_KEY=your_gemini_api_key
 TAVILY_API_KEY=your_tavily_api_key
-
+---
 
 
 ▶️ Running the Application
@@ -114,7 +114,7 @@ After running the command, Streamlit will provide a local URL, typically:
 http://localhost:8501
 
 Open this link in your browser to interact with the application.
-
+---
 
 
 🧩 How It Works
@@ -136,7 +136,7 @@ Open this link in your browser to interact with the application.
       -The model generates a context-aware response
 
 This approach is known as Retrieval-Augmented Generation (RAG).
-
+---
 
 
 📊 Use Cases
@@ -148,7 +148,7 @@ Literature review support
 Faster understanding of complex research papers
 
 Question answering over scientific documents
-
+---
 
 
 🔒 Environment Variables
@@ -159,8 +159,7 @@ Variable	Description
 GOOGLE_API_KEY	Used for Gemini LLM
 TAVILY_API_KEY	Used for web search
 
-⚠️ Do not upload the .env file to GitHub.
-
+---
 
 
 📌 Future Improvements
@@ -174,7 +173,7 @@ Knowledge graph generation
 Paper comparison tool
 
 Research recommendation system
-
+---
 
 
 👨‍💻 Author
@@ -184,6 +183,7 @@ Harsh Burande
 Aspiring Data Scientist | Data Analyst | AI Enthusiast
 
 ✨ Building intelligent systems that transform information into knowledge.
+
 
 
 
