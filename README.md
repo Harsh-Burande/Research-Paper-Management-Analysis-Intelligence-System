@@ -6,6 +6,7 @@ This system is designed to simplify the process of reading, understanding, and a
 
 The application combines document processing, vector search, and large language models to deliver context-aware answers.
 
+
 🚀 Features
 
 📄 Upload and process research paper PDFs
@@ -19,6 +20,7 @@ The application combines document processing, vector search, and large language 
 📊 Clean interactive interface using Streamlit
 
 ⚡ Fast response using LLM APIs
+
 
 🧠 Tech Stack
 
@@ -35,6 +37,7 @@ Google Gemini API
 PyPDF
 
 Tavily API (Web Search)
+
 
 📂 Project Structure
 Research-Paper-Management-Analysis-Intelligence-System
@@ -58,13 +61,17 @@ Research-Paper-Management-Analysis-Intelligence-System
 │
 
 └── README.md
+
+
 ⚙️ Installation
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/Research-Paper-Management-Analysis-Intelligence-System.git
 
 Navigate into the project folder:
 
 cd Research-Paper-Management-Analysis-Intelligence-System
+
 2️⃣ Create Virtual Environment
 python -m venv venv
 
@@ -77,8 +84,10 @@ venv\Scripts\activate
 Mac/Linux
 
 source venv/bin/activate
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
+
 4️⃣ Add API Keys
 
 Create a .env file in the root directory.
@@ -87,6 +96,8 @@ Example:
 
 GOOGLE_API_KEY=your_gemini_api_key
 TAVILY_API_KEY=your_tavily_api_key
+
+
 ▶️ Running the Application
 
 Start the Streamlit app using:
@@ -98,6 +109,7 @@ After running the command, Streamlit will provide a local URL, typically:
 http://localhost:8501
 
 Open this link in your browser to interact with the application.
+
 
 🧩 How It Works
 
@@ -119,6 +131,7 @@ Open this link in your browser to interact with the application.
 
 This approach is known as Retrieval-Augmented Generation (RAG).
 
+
 📊 Use Cases
 
 Academic research assistance
@@ -129,6 +142,7 @@ Faster understanding of complex research papers
 
 Question answering over scientific documents
 
+
 🔒 Environment Variables
 
 The project requires the following API keys:
@@ -138,6 +152,7 @@ GOOGLE_API_KEY	Used for Gemini LLM
 TAVILY_API_KEY	Used for web search
 
 ⚠️ Do not upload the .env file to GitHub.
+
 
 📌 Future Improvements
 
@@ -151,6 +166,7 @@ Paper comparison tool
 
 Research recommendation system
 
+
 👨‍💻 Author
 
 Harsh Burande
@@ -158,6 +174,7 @@ Harsh Burande
 Aspiring Data Scientist | Data Analyst | AI Enthusiast
 
 ✨ Building intelligent systems that transform information into knowledge.
+
 
 
 
