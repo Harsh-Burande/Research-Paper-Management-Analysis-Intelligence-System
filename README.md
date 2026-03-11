@@ -77,11 +77,12 @@ Open this link in your browser to interact with the application.
 3. Text is converted into vector embeddings
 4. These embeddings are stored in a vector database
 5. When the user asks a question:
-  -Relevant document chunks are retrieved
    
-  -Context is sent to the LLM
+    -Relevant document chunks are retrieved
+   
+    -Context is sent to the LLM
   
-  -The model generates a context-aware response
+    -The model generates a context-aware response
 
 This approach is known as Retrieval-Augmented Generation (RAG).
 
@@ -116,5 +117,6 @@ Harsh Burande
 Aspiring Data Scientist | Data Analyst | AI Enthusiast
 
 ✨ Building intelligent systems that transform information into knowledge.
+
 
 
