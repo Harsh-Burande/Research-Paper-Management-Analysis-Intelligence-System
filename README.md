@@ -38,20 +38,21 @@ Tavily API (Web Search)
 
 📂 Project Structure
 Research-Paper-Management-Analysis-Intelligence-System
-│
-├── app.py                # Main Streamlit application
-
-├── pages/                # Additional Streamlit pages
 
 │
-├── utils/                # Helper functions (optional)
+├── app.py                      # Main Streamlit application
+
+├── pages/                      # Additional Streamlit pages
 
 │
-├── requirements.txt      # Project dependencies
+├── utils/                      # Helper functions (optional)
 
-├── .env                  # API keys (not pushed to GitHub)
 │
+├── requirements.txt            # Project dependencies
 
+├── .env                        # API keys (not pushed to GitHub)
+
+│
 └── README.md
 ⚙️ Installation
 1️⃣ Clone the Repository
@@ -153,4 +154,5 @@ Harsh Burande
 Aspiring Data Scientist | Data Analyst | AI Enthusiast
 
 ✨ Building intelligent systems that transform information into knowledge.
+
 
