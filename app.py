@@ -522,3 +522,6 @@ if st.button("Generate Paper Summary"):
 # git add .
 # git commit -m "Added Comments to the codebase for better readability and understanding of the code flow. This includes explanations of the RAG pipeline, metadata extraction, and the overall architecture of the research paper management system."
 # git push
+
+# git pull origin main --rebase
+# git push
